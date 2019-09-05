@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: ForYou
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: gaoyy
+Implementation-Vendor-Id: com.srpingBoot
+Build-Jdk: 1.8.0_11
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/demo
+Created-By: Maven Integration for Eclipse
+

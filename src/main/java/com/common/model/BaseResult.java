@@ -73,4 +73,5 @@ public class BaseResult implements Serializable{
 		result.setMessage(message);
 		return result;
 	}
+	
 }

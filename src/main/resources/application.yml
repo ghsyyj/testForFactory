@@ -1,11 +1,11 @@
-server:  port: 80
+server:  port: 8011
 # 数据源配置
 spring:
   redis:
     database: 0
-    host: 192.168.1.1
-    port: 6379
-    password: 123456
+    host: 1
+    port: 1
+    password: 1
     jedis:      pool:
                  # 连接池最大连接数（使用负值表示没有限制）          max-active: 50
                  # 连接池最大阻塞等待时间（使用负值表示没有限制）
@@ -17,9 +17,9 @@ spring:
     
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://123.123.123:3306/test?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
-    username: 123
-    password: 123
+    url: jdbc:mysql://111:111/test?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
+    username: 111
+    password: 11@11
     driver-class-name: com.mysql.jdbc.Driver
 # 下面为连接池的补充设置，应用到上面所有数据源中
     # 初始化大小，最小，最大    druid:      initial-size: 5

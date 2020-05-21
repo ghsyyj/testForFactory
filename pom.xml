@@ -88,6 +88,12 @@
 			<artifactId>java-emoji-converter</artifactId>
 			<version>0.1.1</version>
 		</dependency>
+		
+		<!-- spring kafka -->
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
+		</dependency>
 
 		<!-- log4j2 -->
 		<dependency>

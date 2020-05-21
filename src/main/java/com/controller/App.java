@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-@MapperScan("com.controller.mapper.*mapper")
+@MapperScan("com.mapper.*mapper")
 //@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 public class App extends SpringBootServletInitializer{
 	
